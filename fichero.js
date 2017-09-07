@@ -23,7 +23,7 @@ if (x == "") {
 
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 10,
+          zoom: 8,
            center: {lat: 40.48, lng: -3.6}
         });
 
@@ -33,7 +33,9 @@ if (x == "") {
       // Data for the markers consisting of a name, a LatLng and a zIndex for the
       // order in which these markers should display on top of each other.
       var beaches = [
-        ['Bondi Beach', 40.48, -3.6, 4]
+        ['Madrid', 40.48, -3.6, 4],
+          ['Desafio STEM', 40.48, -3.0, 4],
+          ['Desafio STEM', 40.0, -3.6, 4]
        
       ];
 
