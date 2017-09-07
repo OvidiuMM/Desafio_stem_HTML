@@ -1,7 +1,14 @@
 function myFunction() {
    document.getElementById("demo").innerHTML = "Párrafo cambiado.";
 }
-
+function esconderMostrar() {
+    var x = document.getElementById('map');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
 function validateForm() {
 var x = document.forms["myForm"]["fname"].value;
 if (x == "") {
