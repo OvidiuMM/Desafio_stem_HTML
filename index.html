@@ -3,7 +3,11 @@
 <head>
 <title>Título página</title>
   <link rel="stylesheet" href="styles.css">
-
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body style="background-color:powderblue;">
   <script src="fichero.js"></script>
@@ -53,8 +57,8 @@
   <p>Tokyo is the capital of Japan.</p>
   <p>App Inventor es un entorno de desarrollo de software creado por Google Labs para la elaboración de aplicaciones destinadas al sistema operativo Android..</p>
 </div>
-  <button onclick="esconderMostrar()">Try it</button>
-  <div id="map"></div>
+  <button  type="button" class="btn btn-success" onclick="esconderMostrar()">Sorpresa</button>
+  <div id="map" style="display: none;"></div>
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxoZYIz1Vr5_h2jccrEp05DkWOEHBJL60&callback=initMap">
     </script>
